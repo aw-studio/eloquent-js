@@ -1,5 +1,5 @@
 {
-	"name": "cbl/eloquent-js",
+	"name": "aw-studio/eloquent-js",
 	"type": "laravel-project",
 	"license": "MIT",
 	"authors": [
@@ -19,7 +19,7 @@
     }
     "laravel": {
         "providers": [
-            "Cbl\\EloquentJs\\ServiceProvider"
+            "AwStudio\\EloquentJs\\ServiceProvider"
         ]
     },
 }
