@@ -1,6 +1,6 @@
 <?php
 
-namespace AwStudio\EloquentJs\Database;
+namespace EloquentJs\Database;
 
 trait CanEloquentJs
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AwStudio\EloquentJs\Http;
+namespace EloquentJs\Http;
 
 class EloquentJsController
 {

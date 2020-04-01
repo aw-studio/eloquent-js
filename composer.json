@@ -14,12 +14,14 @@
 			"src/Support/helpers.php"
 		],
 		"psr-4": {
-			"Cbl\\EloquentJs\\": "src"
+			"AwStudio\\EloquentJs\\": "src"
 		}
-    }
-    "laravel": {
-        "providers": [
-            "AwStudio\\EloquentJs\\ServiceProvider"
-        ]
-    },
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"AwStudio\\EloquentJs\\EloquentJsServiceProvider"
+			]
+		}
+	}
 }

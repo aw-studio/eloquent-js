@@ -1,9 +1,14 @@
 <?php
 
-namespace AwStudio\EloquentJs;
+namespace EloquentJs;
 
 class EloquentJs
 {
+    public function __construct()
+    {
+        //
+    }
+
     public function toArray()
     {
         return $this->model->toEloquentJs();
