@@ -1,0 +1,25 @@
+{
+	"name": "cbl/eloquent-js",
+	"type": "laravel-project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lennart Carstens-Behrens",
+			"email": "lennart.carbe@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"files": [
+			"src/Support/helpers.php"
+		],
+		"psr-4": {
+			"Cbl\\EloquentJs\\": "src"
+		}
+    }
+    "laravel": {
+        "providers": [
+            "Cbl\\EloquentJs\\ServiceProvider"
+        ]
+    },
+}
